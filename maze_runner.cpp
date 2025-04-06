@@ -200,7 +200,7 @@ int main(int argc, char* argv[]) {
     }
     */
 
-    Position initial_pos = load_maze("data/maze4.txt");
+    Position initial_pos = load_maze("../data/maze4.txt");
 
     if (initial_pos.row == -1 || initial_pos.col == -1) {
         std::cerr << "Posição inicial não encontrada no labirinto." << std::endl;
